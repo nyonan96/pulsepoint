@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use | Pulse</title>
+    <style>
+        :root { --bg: #000000; --card: #1A1A1A; --text: #FFFFFF; --muted: #888888; --accent: #4CC9F0; --warning: #FF4B4B; }
+        body { font-family: -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: 40px auto; background: var(--card); padding: 30px; border-radius: 24px; border: 1px solid #333; }
+        h1 { font-size: 28px; font-weight: 800; margin-bottom: 5px; color: var(--accent); }
+        h2 { font-size: 18px; font-weight: 700; margin-top: 30px; }
+        p, li { color: var(--muted); font-size: 15px; }
+        .disclaimer { background: rgba(255, 75, 75, 0.1); border: 1px solid var(--warning); padding: 15px; border-radius: 12px; color: var(--warning); font-weight: 600; margin: 20px 0; }
+        .date { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Terms of Use</h1>
+        <div class="date">Last Updated: March 1, 2026</div>
+
+        <div class="disclaimer">
+            MEDICAL DISCLAIMER: Pulse is a self-tracking tool and NOT a medical device. It does not provide medical advice, diagnosis, or treatment.
+        </div>
+
+        <h2>1. Use of Service</h2>
+        <p>By using Pulse, you acknowledge that the "Mental Forecasts" are based on self-reported data patterns and should not be used as a basis for clinical decisions.</p>
+
+        <h2>2. Medications & Reminders</h2>
+        <p>While Pulse provides medication reminders, the accuracy of these alerts depends on device settings and battery optimization. Users are responsible for their own medication adherence.</p>
+
+        <h2>3. Data Privacy</h2>
+        <p>Users are responsible for maintaining the security of their Google or Email accounts used to access the app. </p>
+
+        <h2>4. Limitation of Liability</h2>
+        <p>Pulse and its developers are not liable for any health outcomes, missed appointments, or data loss resulting from the use of the application.</p>
+    </div>
+</body>
+</html>
