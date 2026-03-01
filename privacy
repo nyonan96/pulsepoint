@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Pulse</title>
+    <style>
+        :root { --bg: #000000; --card: #1A1A1A; --text: #FFFFFF; --muted: #888888; --accent: #4CC9F0; }
+        body { font-family: -apple-system, system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding: 20px; }
+        .container { max-width: 600px; margin: 40px auto; background: var(--card); padding: 30px; border-radius: 24px; border: 1px solid #333; }
+        h1 { font-size: 28px; font-weight: 800; margin-bottom: 5px; color: var(--accent); }
+        h2 { font-size: 18px; font-weight: 700; margin-top: 30px; border-left: 3px solid var(--accent); padding-left: 10px; }
+        p, li { color: var(--muted); font-size: 15px; }
+        .date { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="date">Last Updated: March 1, 2026</div>
+
+        <h2>1. Information Collection</h2>
+        <p>Pulse collects information to provide a seamless health tracking experience:</p>
+        <ul>
+            <li><strong>Account Data:</strong> Email and UID via Firebase Authentication.</li>
+            <li><strong>Health Logs:</strong> Mood entries, battery levels, and memos stored in Cloud Firestore.</li>
+            <li><strong>Medical Data:</strong> Medication names, dosages, and appointment schedules.</li>
+        </ul>
+
+        <h2>2. Data Usage</h2>
+        <p>Your data is used solely to generate "Mental Forecasts," sync information across your devices, and send local/push notifications for reminders.</p>
+
+        <h2>3. Third-Party Services</h2>
+        <p>We utilize Google Firebase for secure data storage and Expo for notification delivery. We do not sell or share your personal health logs with advertisers.</p>
+
+        <h2>4. Data Control</h2>
+        <p>You may delete your data at any time through the app interface. For permanent account deletion, please contact support at curvstudios96@gmail.com.</p>
+    </div>
+</body>
+</html>
